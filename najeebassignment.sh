@@ -45,7 +45,7 @@ case $helpdesk in
 #####################################################
 # The first option tells the Admin the date command 
 #####################################################
-a)echo
+a) echo
   cal
   sleep 2
    ;;
@@ -194,7 +194,7 @@ l) echo
 #Option m: this allows an admin to add a new IP address
 #######################################################
 
-m)echo
+m) echo
  echo Here you can  add an IP Address
  echo Please follow the instructions!
  sleep 2
@@ -238,7 +238,7 @@ echo The system will now attempt to remove the IP address!
 # Option o: Shows the ARP table
 ##############################
 
-o)echo
+o) echo
  echo this is the ARP Table Details:
  echo
  arp
